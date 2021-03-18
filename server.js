@@ -7,7 +7,7 @@ const sequelize = require('./config/connection');
 
 // Server variables and port definition; includes heroku dynamic port
 const app = express();
-const PORT = process.env.PORT || 3301;
+const PORT = process.env.PORT || process.env.DB_PORT;
 
 // Middle ware to handle Posts
 app.use(express.json());

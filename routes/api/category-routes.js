@@ -11,7 +11,6 @@ router.get('/', async (req, res) => {
       include: [{// Notice `include` takes an ARRAY
         model: Product
       }],
-
     });
     res.status(200).json(categoryData);
   } catch (err) {
@@ -23,7 +22,7 @@ router.get('/:id', (req, res) => {
   // find one category by its `id` value
   // be sure to include its associated Products
   try {
-
+    res.json("Meow")
   } catch (err) {
 
   }

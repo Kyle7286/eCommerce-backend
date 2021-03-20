@@ -6,14 +6,14 @@
 - Email:          Kyle7286@gmail.com
 - Github:         https://github.com/Kyle7286/
 - Repo:           https://github.com/Kyle7286/eCommerce-backend
-- Video:          
+- Video:          https://drive.google.com/file/d/1g1a2X1EEVAhH9qFoOk_WXvdI6xln3XIJ/view
 
 ## About/Purpose ❔
 ---
-This application is meant to only be a back-end for a theoretical e-commerce website containing products, tags and category models.  It contains the basic routes for GET, PUT and DEL. This application comes equipped with a `schema` and `seeds` file to get you started with your database which should be mySQL.
+This application is meant to only be a back-end for a theoretical e-commerce website containing products, tags and category models.  It contains the basic routes for GET, POST, PUT and DEL. This application comes equipped with a `schema` and `seeds` file to get you started with your database which should be mySQL.
 
 
-## Setup
+## Setup / How to Use
 1. Install all depencies
     * `npm i`
 2. Configure your .env file
@@ -36,7 +36,7 @@ This application is meant to only be a back-end for a theoretical e-commerce web
 5. Setup your `requests` in `Postman` or `Insomnia`
     * If using `Postman`, for convenience, import the below into `Postman`
         * `./assets/ecommerce-backend.postman_collection.json`
-6. Test the routes :)
+6. Send requests to the routes :)
 
 ## Testing
 ---
@@ -44,14 +44,14 @@ No tests | N/A
 
 ## Takeaways 🥡
 --- 
-* Learned setup models appropriately
-* Learned how awesome sequelize is making working with a SQL DB so much easier
+* Learned to setup models appropriately
+* Learned how awesome sequelize is making SQL queries so much easier
 * Gained more confidence in building routes keeping try/catch format, and the power of async/await
 * Gained more confidence with postman
 
 ## Screenshot(s) 📊
 ---
-![Image](./assets/md/screenshot.png)
+![Image](./assets/screenshot.png)
 
 ## Thank you 👍 
 ---
